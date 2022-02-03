@@ -12,3 +12,17 @@ Here are some Sport I think you should try.
 > I survived because the fire inside me burned brighter than the fire around me *Joshua Graham*
 >
 > I dont know any actual quotes *Reece Kramer*
+
+---
+###### Code
+'''
+long long binpow(long long a, long long b) {
+    if (b == 0)
+        return 1;
+    long long res = binpow(a, b / 2);
+    if (b % 2)
+        return res * res * a;
+    else
+        return res * res;
+}
+'''

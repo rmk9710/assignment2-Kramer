@@ -15,7 +15,7 @@ Here are some Sport I think you should try.
 
 ---
 ###### Code
-'''
+```
 long long binpow(long long a, long long b) {
     if (b == 0)
         return 1;
@@ -25,4 +25,4 @@ long long binpow(long long a, long long b) {
     else
         return res * res;
 }
-'''
+```
